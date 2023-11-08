@@ -1,21 +1,18 @@
-
 function elements () {
     const btn = window.document.getElementById("button");
     const out = window.document.getElementById("out")
     
     btn.addEventListener('click', function() {
-        out.innerText = "l was pressed!";
+        out.innerHTML += "l was pressed!<br>";
     });
 
     btn.addEventListener('mouseover', function(){
-        out.innerText = "Mouse on me";
+        out.innerHTML += "Mouse on me<br>";
     });
 
     btn.addEventListener('mouseout', function(){
-        out.innerText = "Mouse is not on me!"
-    });
-
-    
+        out.innerHTML += "Mouse is not on me!<br>"
+    });    
 }
 
 elements()        
