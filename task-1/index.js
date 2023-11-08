@@ -1,4 +1,4 @@
-const newWindow = window.open("", "newWindow", "width=300, height=300");
+const newWindow = window.open(" ", " ", "newWindow", "width=300, height=300");
 
 setTimeout(() => {
     newWindow.resizeTo(500, 500);
